@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96951EC71B1DA00600F9448F /* f02.png in Resources */ = {isa = PBXBuildFile; fileRef = 96951EC61B1DA00600F9448F /* f02.png */; };
+		96C4A2C51B1D791D00F0FF73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4A2C41B1D791D00F0FF73 /* AppDelegate.swift */; };
+		96C4A2C71B1D791D00F0FF73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4A2C61B1D791D00F0FF73 /* ViewController.swift */; };
+		96C4A2CA1B1D791D00F0FF73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C4A2C81B1D791D00F0FF73 /* Main.storyboard */; };
+		96C4A2CC1B1D791D00F0FF73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C4A2CB1B1D791D00F0FF73 /* Images.xcassets */; };
+		96C4A2CF1B1D791D00F0FF73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C4A2CD1B1D791D00F0FF73 /* LaunchScreen.xib */; };
+		96C4A2DB1B1D791D00F0FF73 /* SaralyTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4A2DA1B1D791D00F0FF73 /* SaralyTimerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96C4A2D51B1D791D00F0FF73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96C4A2B71B1D791D00F0FF73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96C4A2BE1B1D791D00F0FF73;
+			remoteInfo = SaralyTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96951EC61B1DA00600F9448F /* f02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = f02.png; path = ../../../../f02.png; sourceTree = "<group>"; };
+		96C4A2BF1B1D791D00F0FF73 /* SaralyTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaralyTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C4A2C31B1D791D00F0FF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C4A2C41B1D791D00F0FF73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96C4A2C61B1D791D00F0FF73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96C4A2C91B1D791D00F0FF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96C4A2CB1B1D791D00F0FF73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96C4A2CE1B1D791D00F0FF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		96C4A2D41B1D791D00F0FF73 /* SaralyTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaralyTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C4A2D91B1D791D00F0FF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C4A2DA1B1D791D00F0FF73 /* SaralyTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaralyTimerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96C4A2BC1B1D791D00F0FF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C4A2D11B1D791D00F0FF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96C4A2B61B1D791D00F0FF73 = {
+			isa = PBXGroup;
+			children = (
+				96C4A2C11B1D791D00F0FF73 /* SaralyTimer */,
+				96C4A2D71B1D791D00F0FF73 /* SaralyTimerTests */,
+				96C4A2C01B1D791D00F0FF73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96C4A2C01B1D791D00F0FF73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96C4A2BF1B1D791D00F0FF73 /* SaralyTimer.app */,
+				96C4A2D41B1D791D00F0FF73 /* SaralyTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96C4A2C11B1D791D00F0FF73 /* SaralyTimer */ = {
+			isa = PBXGroup;
+			children = (
+				96C4A2C41B1D791D00F0FF73 /* AppDelegate.swift */,
+				96C4A2C61B1D791D00F0FF73 /* ViewController.swift */,
+				96C4A2C81B1D791D00F0FF73 /* Main.storyboard */,
+				96C4A2CB1B1D791D00F0FF73 /* Images.xcassets */,
+				96C4A2CD1B1D791D00F0FF73 /* LaunchScreen.xib */,
+				96C4A2C21B1D791D00F0FF73 /* Supporting Files */,
+			);
+			path = SaralyTimer;
+			sourceTree = "<group>";
+		};
+		96C4A2C21B1D791D00F0FF73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96951EC61B1DA00600F9448F /* f02.png */,
+				96C4A2C31B1D791D00F0FF73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96C4A2D71B1D791D00F0FF73 /* SaralyTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				96C4A2DA1B1D791D00F0FF73 /* SaralyTimerTests.swift */,
+				96C4A2D81B1D791D00F0FF73 /* Supporting Files */,
+			);
+			path = SaralyTimerTests;
+			sourceTree = "<group>";
+		};
+		96C4A2D81B1D791D00F0FF73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96C4A2D91B1D791D00F0FF73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96C4A2BE1B1D791D00F0FF73 /* SaralyTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C4A2DE1B1D791D00F0FF73 /* Build configuration list for PBXNativeTarget "SaralyTimer" */;
+			buildPhases = (
+				96C4A2BB1B1D791D00F0FF73 /* Sources */,
+				96C4A2BC1B1D791D00F0FF73 /* Frameworks */,
+				96C4A2BD1B1D791D00F0FF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaralyTimer;
+			productName = SaralyTimer;
+			productReference = 96C4A2BF1B1D791D00F0FF73 /* SaralyTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96C4A2D31B1D791D00F0FF73 /* SaralyTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C4A2E11B1D791D00F0FF73 /* Build configuration list for PBXNativeTarget "SaralyTimerTests" */;
+			buildPhases = (
+				96C4A2D01B1D791D00F0FF73 /* Sources */,
+				96C4A2D11B1D791D00F0FF73 /* Frameworks */,
+				96C4A2D21B1D791D00F0FF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96C4A2D61B1D791D00F0FF73 /* PBXTargetDependency */,
+			);
+			name = SaralyTimerTests;
+			productName = SaralyTimerTests;
+			productReference = 96C4A2D41B1D791D00F0FF73 /* SaralyTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96C4A2B71B1D791D00F0FF73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = myname;
+				TargetAttributes = {
+					96C4A2BE1B1D791D00F0FF73 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					96C4A2D31B1D791D00F0FF73 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 96C4A2BE1B1D791D00F0FF73;
+					};
+				};
+			};
+			buildConfigurationList = 96C4A2BA1B1D791D00F0FF73 /* Build configuration list for PBXProject "SaralyTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96C4A2B61B1D791D00F0FF73;
+			productRefGroup = 96C4A2C01B1D791D00F0FF73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96C4A2BE1B1D791D00F0FF73 /* SaralyTimer */,
+				96C4A2D31B1D791D00F0FF73 /* SaralyTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96C4A2BD1B1D791D00F0FF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C4A2CA1B1D791D00F0FF73 /* Main.storyboard in Resources */,
+				96C4A2CF1B1D791D00F0FF73 /* LaunchScreen.xib in Resources */,
+				96951EC71B1DA00600F9448F /* f02.png in Resources */,
+				96C4A2CC1B1D791D00F0FF73 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C4A2D21B1D791D00F0FF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96C4A2BB1B1D791D00F0FF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C4A2C71B1D791D00F0FF73 /* ViewController.swift in Sources */,
+				96C4A2C51B1D791D00F0FF73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C4A2D01B1D791D00F0FF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C4A2DB1B1D791D00F0FF73 /* SaralyTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96C4A2D61B1D791D00F0FF73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96C4A2BE1B1D791D00F0FF73 /* SaralyTimer */;
+			targetProxy = 96C4A2D51B1D791D00F0FF73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96C4A2C81B1D791D00F0FF73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C4A2C91B1D791D00F0FF73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96C4A2CD1B1D791D00F0FF73 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C4A2CE1B1D791D00F0FF73 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96C4A2DC1B1D791D00F0FF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96C4A2DD1B1D791D00F0FF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96C4A2DF1B1D791D00F0FF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SaralyTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96C4A2E01B1D791D00F0FF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SaralyTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96C4A2E21B1D791D00F0FF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SaralyTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaralyTimer.app/SaralyTimer";
+			};
+			name = Debug;
+		};
+		96C4A2E31B1D791D00F0FF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SaralyTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaralyTimer.app/SaralyTimer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96C4A2BA1B1D791D00F0FF73 /* Build configuration list for PBXProject "SaralyTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C4A2DC1B1D791D00F0FF73 /* Debug */,
+				96C4A2DD1B1D791D00F0FF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C4A2DE1B1D791D00F0FF73 /* Build configuration list for PBXNativeTarget "SaralyTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C4A2DF1B1D791D00F0FF73 /* Debug */,
+				96C4A2E01B1D791D00F0FF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C4A2E11B1D791D00F0FF73 /* Build configuration list for PBXNativeTarget "SaralyTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C4A2E21B1D791D00F0FF73 /* Debug */,
+				96C4A2E31B1D791D00F0FF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96C4A2B71B1D791D00F0FF73 /* Project object */;
+}
